@@ -1,31 +1,22 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body
+.books
 {
-  height: 100vh;
+  height: auto;
   background-image: url("./bg1.jpg");
-  background-image: center;
+  background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0px;
 }
 
-.card1, .card2, .card3
+.card-book1, .card-book2, .card-book3, .card-book4, .card-book5, .card-book6, .card-book7, .card-book8, .card-book9
 {
-  height: 200px;
-  width: 300px;
+  height: 150px;
+  width: 250px;
   border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 15px;
-  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  backdrop-filter: blur(7px);
   background: radial-gradient(at 50% 0%, rgba(0, 0, 0, 0), rgba( 255, 255, 255, 0.15));
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
   transition: all 0.4s;
@@ -35,19 +26,19 @@ body
   flex-direction: row;
   text-align: justify;
   margin: 50px 50px 50px 50px;
-  padding: 5px 10px 5px 5px;
-  
+  padding: 5px 20px 5px 5px;
 }
 
-.card1:hover, .card2:hover, .card3:hover
+.card-book1:hover, .card-book2:hover, .card-book3:hover, .card-book4:hover, .card-book5:hover, .card-book6:hover, .card-book7:hover, .card-book8:hover, .card-book9:hover
 {
   transform: scale(1.05);
-  backdrop-filter: blur(15px);
+  backface-visibility: hidden;
+  backdrop-filter: blur(20px);
   background: radial-gradient(at 50% 0%, rgba(0, 0, 0, 0), rgba( 255, 255, 255, 0.15));
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7);
 }
 
-.card1 img, .card2 img, .card3 img
+.card-book1 img, .card-book2 img, .card-book3 img, .card-book4 img, .card-book5 img, .card-book6 img, .card-book7 img, .card-book8 img, .card-book9 img
 {
   width: 40%;
   height: 100%;
@@ -55,31 +46,36 @@ body
   box-sizing: border-box;
   cursor: pointer;
   border-radius: 15px;
+  backdrop-filter: saturate(1.5);
 }
 
-.card1:hover img, .card2:hover img, .card3:hover img
+.card-book1:hover img, .card-book2:hover img, .card-book3:hover img, .card-book4:hover img, .card-book5:hover img, .card-book6:hover img, .card-book7:hover img, .card-book8:hover img, .card-book9:hover img
 {
   transform: translate(-20px, -40px) rotate(-25deg) scale(1.2);
+  backface-visibility: hidden;
+  transition: all 0.4s;
 }
 
-.card_row1
+.card-book_row1, .card-book_row2, .card-book_row3
 {
-  display: flex;
-  justify-content: space-around;
+  display: inline-block;
+  justify-content: space-between;
   text-align: center;
   position: relative;
 }
 
 p{
   color: aliceblue;
-  font-size: 11px;
-  line-height: 15px;
+  font-size: 0.6rem;
+  line-height: 10px;
+  margin-top: -20px;
   margin-left: 30px;
-  margin-top: 10px;
+  margin-bottom: 35px;
 }
 
 h5{
   color: aliceblue;
   text-shadow: 0 0 5px #999;
-  font-size: 24px;
+  font-size: 20px;
+  margin-left: 2px;
 }
