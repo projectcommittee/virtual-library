@@ -1,31 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MSIT Virtual Library</title>
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/books.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-</head>
-<body>
-    
-    <div class="header">
-        <nav></nav>
-        <div class="carusol"></div>
-        <div class="features"></div>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maharaja Surajmal Virtual Library</title>
 
-    <div class="books">
-    </div>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-    <div class="footer">
-        <div></div>
-        <div></div>
-        <footer></footer>
-    </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
 
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+      <a href="#" class="logo" id="header">Maharaja Suramal Virtual Library</a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="contact">Contact</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search this site" />
+        <label for="seacrh-bar " class="fas fa-search"></label>
+      </form>
+    </header>
+   
+<!-- <section class="home" id="home">
+  <div class="slider-container">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://www.msit.in/static/img/mainPage/slide_12.jpg" alt="First slide" style="height:70vh;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Lorem ipsum dolor sit amet.</h5>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://www.msit.in/static/img/mainPage/slide_12.jpg" alt="Second slide" style="height:70vh;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Lorem ipsum dolor sit amet.</h5>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://www.msit.in/static/img/mainPage/slide_12.jpg" alt="Third slide" style="height:70vh;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Lorem ipsum dolor sit amet.</h5>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </div>
+</section> -->
+<div>
+  <div class="carousel">
+    <ul class="slides">
+      <input type="radio" name="radio-buttons" id="img-1" checked />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-3" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-2" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+      <input type="radio" name="radio-buttons" id="img-2" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="https://content.r9cdn.net/rimg/dimg/db/02/06b291e8-city-14912-171317ad83a.jpg?width=1750&height=1000&xhint=3040&yhint=2553&crop=true">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-1" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-3" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+      <input type="radio" name="radio-buttons" id="img-3" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-2" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-1" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+      <div class="carousel-dots">
+        <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+        <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+        <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+      </div>
+    </ul>
+  </div>
+</div>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
 </html>
