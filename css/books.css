@@ -32,7 +32,6 @@
 .card-book1:hover, .card-book2:hover, .card-book3:hover, .card-book4:hover, .card-book5:hover, .card-book6:hover, .card-book7:hover, .card-book8:hover, .card-book9:hover
 {
   transform: scale(1.05);
-  backface-visibility: hidden;
   backdrop-filter: blur(20px);
   background: radial-gradient(at 50% 0%, rgba(0, 0, 0, 0), rgba( 255, 255, 255, 0.15));
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7);
@@ -52,7 +51,6 @@
 .card-book1:hover img, .card-book2:hover img, .card-book3:hover img, .card-book4:hover img, .card-book5:hover img, .card-book6:hover img, .card-book7:hover img, .card-book8:hover img, .card-book9:hover img
 {
   transform: translate(-20px, -40px) rotate(-25deg) scale(1.2);
-  backface-visibility: hidden;
   transition: all 0.4s;
 }
 
@@ -66,7 +64,7 @@
 
 p{
   color: aliceblue;
-  font-size: 0.6rem;
+  font-size: 10px;
   line-height: 10px;
   margin-top: -20px;
   margin-left: 30px;
