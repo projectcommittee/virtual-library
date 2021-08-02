@@ -31,10 +31,11 @@
 
 .card-book1:hover, .card-book2:hover, .card-book3:hover, .card-book4:hover, .card-book5:hover, .card-book6:hover, .card-book7:hover, .card-book8:hover, .card-book9:hover
 {
-  transform: scale(1.05);
+  transform: scale(1.05) perspective(1px);
   backdrop-filter: blur(20px);
   background: radial-gradient(at 50% 0%, rgba(0, 0, 0, 0), rgba( 255, 255, 255, 0.15));
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7);
+  backface-visibility: hidden;
 }
 
 .card-book1 img, .card-book2 img, .card-book3 img, .card-book4 img, .card-book5 img, .card-book6 img, .card-book7 img, .card-book8 img, .card-book9 img
