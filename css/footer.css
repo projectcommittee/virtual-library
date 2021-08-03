@@ -1,4 +1,10 @@
-
+/* body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+} */
   /* contact us */
   .contact{
         
@@ -102,9 +108,68 @@
       text-decoration: none;
     }
     
-    
+    main {
+      background: #f6f5f4;
+      flex: 1;
+      margin: 0;
+      height: 11.5vh;
+      position: relative;
+      overflow: hidden;
+
+    }
+    .wave {
+      position: absolute;
+      bottom: -5%;
+      left: 0;
+      right: 0;
+    }
+    .wave:nth-of-type(1) {
+      --speed: 30;
+      --opacity: 0.3;
+      --height: 12;
+      --width: 400;
+    }
+    .wave:nth-of-type(2) {
+      --speed: 45;
+      --opacity: 0.6;
+      --height: 10;
+      --width: 300;
+    }
+    .wave:nth-of-type(3) {
+      --speed: 15;
+      --opacity: 1;
+      --height: 6;
+      --width: 200;
+    }
+
+    .wave {
+      background-image: url(../wave--infinite.svg);
+      height: calc(var(--height, 0) * 1vh);
+      width: calc(var(--width, 0) * 1vw);
+      opacity: var(--opacity);
+      -webkit-animation: wave calc(var(--speed, 0) * 1s) infinite linear;
+              animation: wave calc(var(--speed, 0) * 1s) infinite linear;
+    }
+    @media (max-width: 480px) {
+      .wave {
+        height: calc(var(--height, 0) * 0.75vh);
+      }
+    }
+    @-webkit-keyframes wave {
+      to {
+        transform: translate(-50%, 0);
+      }
+    }
+    @keyframes wave {
+      to {
+        transform: translate(-50%, 0);
+      }
+    }
+      
    
    
    
     
-  
+  footer{
+    flex: 1;
+  }
