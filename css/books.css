@@ -76,7 +76,7 @@
   transition: 0.6s;
 }
 
-.cat-card-rg{
+.cat-card{
   margin: 1rem auto;
   width: 22%;
   min-width: 8rem;
@@ -88,7 +88,7 @@
   align-items: center;
 }
 
-.cat-card-rg:hover{
+.cat-card:hover{
   transform: scale(1.05) rotate(3deg);
   box-shadow: 0px 0px 10px rgb(107, 106, 106);
   transition: All 0.6s;
