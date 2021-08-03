@@ -1,196 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MSIT Virtual Library</title>
 
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/books.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/books.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <header>
-        <div>
-            <div class="carousel">
-              <ul class="slides">
-                <input type="radio" name="radio-buttons" id="img-1" checked />
-                <li class="slide-container">
-                  <div class="slide-image">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg">
-                  </div>
-                  <div class="carousel-controls">
-                    <label for="img-3" class="prev-slide">
-                      <span>&lsaquo;</span>
-                    </label>
-                    <label for="img-2" class="next-slide">
-                      <span>&rsaquo;</span>
-                    </label>
-                  </div>
-                </li>
-                <input type="radio" name="radio-buttons" id="img-2" />
-                <li class="slide-container">
-                  <div class="slide-image">
-                    <img src="https://content.r9cdn.net/rimg/dimg/db/02/06b291e8-city-14912-171317ad83a.jpg?width=1750&height=1000&xhint=3040&yhint=2553&crop=true">
-                  </div>
-                  <div class="carousel-controls">
-                    <label for="img-1" class="prev-slide">
-                      <span>&lsaquo;</span>
-                    </label>
-                    <label for="img-3" class="next-slide">
-                      <span>&rsaquo;</span>
-                    </label>
-                  </div>
-                </li>
-                <input type="radio" name="radio-buttons" id="img-3" />
-                <li class="slide-container">
-                  <div class="slide-image">
-                    <img src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg">
-                  </div>
-                  <div class="carousel-controls">
-                    <label for="img-2" class="prev-slide">
-                      <span>&lsaquo;</span>
-                    </label>
-                    <label for="img-1" class="next-slide">
-                      <span>&rsaquo;</span>
-                    </label>
-                  </div>
-                </li>
-                <div class="carousel-dots">
-                  <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
-                  <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
-                  <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
-                </div>
-              </ul>
+      <div class="header">
+        <nav class="navigation">
+          <ul class="nav-list">
+            <div class="logo">
+              <a target="_blank" href="https://www.msit.in/"
+                ><img src="assets/images/msitlogo.png" alt="logo"
+              /></a>
             </div>
+            <li><a href="#">Sign-up/Log-in</a></li>
+          </ul>
+          <div class="rightNav">
+            <input type="text" name="search" id="search" />
+            <button class="btn btn-sm">Search</button>
           </div>
+        </nav>
+      </div>
+      <div>
+        <div class="carousel">
+          <ul class="slides">
+            <input type="radio" name="radio-buttons" id="img-1" checked />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg"
+                />
+              </div>
+              <div class="carousel-controls">
+                <label for="img-3" class="prev-slide" >
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-2" class="next-slide" >
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-2" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img
+                  src="https://content.r9cdn.net/rimg/dimg/db/02/06b291e8-city-14912-171317ad83a.jpg?width=1750&height=1000&xhint=3040&yhint=2553&crop=true"
+                />
+              </div>
+              <div class="carousel-controls">
+                <label for="img-1" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-3" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-3" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img
+                  src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg"
+                />
+              </div>
+              <div class="carousel-controls">
+                <label for="img-2" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-1" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <div class="carousel-dots">
+              <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+              <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+              <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+            </div>
+          </ul>
+        </div>
+      </div>
     </header>
+    <div class="features"></div>
 
     <div class="books">
-        <h1 class="heading">All Time Favourite</h1>
-        <div class="book-container">
-            <div class="book-card-rg">
-                <img class="img" src ="./assets/images/book9.jpg">
-                <div class="book-info">
-                    <p class="book-title">README Book</p>
-                    <p class="author">By: Lorem Ipsum</p>
-                    <p>Rating: </p>
-                    <ul class="tags">
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="book-card-rg">
-                <img class="img" src ="./assets/images/book8.jpg">
-                <div class="book-info">
-                    <p class="book-title">README Book</p>
-                    <p class="author">By: Lorem Ipsum</p>
-                    <p>Rating: </p>
-                    <ul class="tags">
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="book-card-rg">
-                <img class="img" src ="./assets/images/book7.jpg">
-                <div class="book-info">
-                    <p class="book-title">README Book</p>
-                    <p class="author">By: Lorem Ipsum</p>
-                    <p>Rating: </p>
-                    <ul class="tags">
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="book-card-rg">
-                <img class="img" src ="./assets/images/book1.jpg">
-                <div class="book-info">
-                    <p class="book-title">README Book</p>
-                    <p class="author">By: Lorem Ipsum</p>
-                    <p>Rating: </p>
-                    <ul class="tags">
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="book-card-rg">
-                <img class="img" src ="./assets/images/book4.jpg">
-                <div class="book-info">
-                    <p class="book-title">README Book</p>
-                    <p class="author">By: Lorem Ipsum</p>
-                    <p>Rating: </p>
-                    <ul class="tags">
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="book-card-rg">
-                <img class="img" src ="./assets/images/book2.jpg">
-                <div class="book-info">
-                    <p class="book-title">README Book</p>
-                    <p class="author">By: Lorem Ipsum</p>
-                    <p>Rating: </p>
-                    <ul class="tags">
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                    </ul>
-                </div>  
-            </div>
-            <div class="book-card-rg">
-                <img class="img" src ="./assets/images/book3.jpg">
-                <div class="book-info">
-                    <p class="book-title">README Book</p>
-                    <p class="author">By: Lorem Ipsum</p>
-                    <p>Rating: </p>
-                    <ul class="tags">
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                    </ul>
-                </div>  
-            </div>
-            <div class="book-card-rg">
-                <img class="img" src ="./assets/images/book5.jpg">
-                <div class="book-info">
-                    <p class="book-title">README Book</p>
-                    <p class="author">By: Lorem Ipsum</p>
-                    <p>Rating: </p>
-                    <ul class="tags">
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                        <li class="tag">Maths</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="book-card-rg">
-                <img class="img" src ="./assets/images/book6.jpg">
-                <div class="book-info">
-                    <p class="book-title">README Book</p>
-                    <p class="author">By: Lorem Ipsum</p>
-                    <p>Rating: </p>
-                    <ul class="tags">
-                        <li class="tag">Mathematics</li>
-                        <li class="tag">Applied Maths</li>
-                    </ul>                   
-                </div>
-            </div>
+      <h1 class="heading">All Time Favourite</h1>
+      <div class="book-container">
+        <div class="book-card-rg">
+          <img class="img" src="./assets/images/book9.jpg" />
+          <div class="book-info">
+            <p class="book-title">README Book</p>
+            <p class="author">By: Lorem Ipsum</p>
+            <p>Rating:</p>
+            <ul class="tags">
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+            </ul>
+          </div>
         </div>
+        <div class="book-card-rg">
+          <img class="img" src="./assets/images/book8.jpg" />
+          <div class="book-info">
+            <p class="book-title">README Book</p>
+            <p class="author">By: Lorem Ipsum</p>
+            <p>Rating:</p>
+            <ul class="tags">
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+            </ul>
+          </div>
+        </div>
+        <div class="book-card-rg">
+          <img class="img" src="./assets/images/book7.jpg" />
+          <div class="book-info">
+            <p class="book-title">README Book</p>
+            <p class="author">By: Lorem Ipsum</p>
+            <p>Rating:</p>
+            <ul class="tags">
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+            </ul>
+          </div>
+        </div>
+        <div class="book-card-rg">
+          <img class="img" src="./assets/images/book1.jpg" />
+          <div class="book-info">
+            <p class="book-title">README Book</p>
+            <p class="author">By: Lorem Ipsum</p>
+            <p>Rating:</p>
+            <ul class="tags">
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+            </ul>
+          </div>
+        </div>
+        <div class="book-card-rg">
+          <img class="img" src="./assets/images/book4.jpg" />
+          <div class="book-info">
+            <p class="book-title">README Book</p>
+            <p class="author">By: Lorem Ipsum</p>
+            <p>Rating:</p>
+            <ul class="tags">
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="book-card-rg">
+          <img class="img" src="./assets/images/book2.jpg" />
+          <div class="book-info">
+            <p class="book-title">README Book</p>
+            <p class="author">By: Lorem Ipsum</p>
+            <p>Rating:</p>
+            <ul class="tags">
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+            </ul>
+          </div>
+        </div>
+        <div class="book-card-rg">
+          <img class="img" src="./assets/images/book3.jpg" />
+          <div class="book-info">
+            <p class="book-title">README Book</p>
+            <p class="author">By: Lorem Ipsum</p>
+            <p>Rating:</p>
+            <ul class="tags">
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+            </ul>
+          </div>
+        </div>
+        <div class="book-card-rg">
+          <img class="img" src="./assets/images/book5.jpg" />
+          <div class="book-info">
+            <p class="book-title">README Book</p>
+            <p class="author">By: Lorem Ipsum</p>
+            <p>Rating:</p>
+            <ul class="tags">
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+              <li class="tag">Maths</li>
+            </ul>
+          </div>
+        </div>
+        <div class="book-card-rg">
+          <img class="img" src="./assets/images/book6.jpg" />
+          <div class="book-info">
+            <p class="book-title">README Book</p>
+            <p class="author">By: Lorem Ipsum</p>
+            <p>Rating:</p>
+            <ul class="tags">
+              <li class="tag">Mathematics</li>
+              <li class="tag">Applied Maths</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="category">
@@ -249,14 +281,113 @@
                 </ul>
             </nav>
       </div>
-
     </div>
 
     <div class="footer">
-        <div></div>
-        <div></div>
-        <footer></footer>
-    </div>
+      <div>
+        <h1 class="key-heading1">Key Features</h1>
+        <div class="key">
+          <div class="key-container">
+            <div class="key-box">
+              <h2 class="key-heading2">01</h2>
+              <h3 class="key-heading3">Lorem</h3>
+              <p class="key-par">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+                ex vitae placeat itaque assumenda quisquam eaque, doloremque
+                soluta impedit cum!
+              </p>
+            </div>
+            <div class="key-box">
+              <h2 class="key-heading2">02</h2>
+              <h3 class="key-heading3">Lorem</h3>
+              <p class="key-par">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+                ex vitae placeat itaque assumenda quisquam eaque, doloremque
+                soluta impedit cum!
+              </p>
+            </div>
+            <div class="key-box">
+              <h2 class="key-heading2">03</h2>
+              <h3 class="key-heading3">Lorem</h3>
+              <p class="key-par">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+                ex vitae placeat itaque assumenda quisquam eaque, doloremque
+                soluta impedit cum!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-</body>
+      <div class="contact" id="contact">
+        <h1 class="contact-heading">Contact Us</h1>
+        <div class="contact-form">
+          <input
+            class="contact-form-input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Your Name"
+          />
+
+          <input
+            class="contact-form-input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+          />
+          <textarea
+            class="contact-form-input"
+            name="text"
+            id="text"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <button class="contact-btn">Submit</button>
+        </div>
+      </div>
+      <footer class="footer footer-bg footer-py-5">
+        <div class="footer-container footer-grid footer-grid-3">
+          <div>
+            <h1>MSIT</h1>
+            <p>Copyright &copy; 2021</p>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li class="links-a">
+                <a class="footer-a" href="index.html">Home</a>
+              </li>
+              <li class="links-a">
+                <a class="footer-a" href="features.html">Books</a>
+              </li>
+              <li class="links-a">
+                <a class="footer-a" href="features.html">Categories</a>
+              </li>
+              <li class="links-a">
+                <a class="footer-a" href="features.html">Features</a>
+              </li>
+              <li class="links-a">
+                <a class="footer-a" href="docs.html">Conatct Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="social">
+            <a class="social-a" href="#"><i class="fab fa-github fa-2x"></i></a>
+            <a class="social-a" href="#"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a class="social-a" href="#"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+            <a class="social-a" href="#"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
 </html>
