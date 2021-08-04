@@ -63,6 +63,7 @@
     }
     footer{
         height: 300px;
+        z-index: 999;
     }
 }
 .carousel-dots .carousel-dot{
