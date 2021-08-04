@@ -70,10 +70,11 @@
 
 .cat-container{
   margin: 2rem auto;
-  width: 75%;
   display: flex;
   flex-wrap: wrap;
+  flex-basis: 75%;
   transition: 0.6s;
+  justify-content: center;
 }
 
 .cat-heading{
