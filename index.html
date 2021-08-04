@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -25,20 +26,19 @@
   <body>
     <header>
       <div class="header">
-        <nav class="navigation">
+        <div class="navbar">
           <ul class="nav-list">
-            <div class="logo">
-              <a target="_blank" href="https://www.msit.in/"
-                ><img src="assets/images/msitlogo.png" alt="logo"
-              /></a>
-            </div>
-            <li><a href="#">Sign-up/Log-in</a></li>
+              <li class="logo">M<span>V</span>L</li>
           </ul>
-          <div class="rightNav">
-            <input type="text" name="search" id="search" />
-            <button class="btn btn-sm">Search</button>
+          <div class="login">
+              <a href="#">log-in</a>
+              <input type="checkbox" id="check">
+              <div class="box">
+                  <input type="text" placeholder="Search Here...">
+                  <label for="check"><i class="fa fa-search"></i></label>
+              </div>
           </div>
-        </nav>
+      </div>
       </div>
       <div>
         <div class="carousel">
