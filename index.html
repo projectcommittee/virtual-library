@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./css/books.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -319,33 +321,47 @@
         </div>
       </div>
 
-      <div class="contact" id="contact">
-        <h1 class="contact-heading">Contact Us</h1>
-        <div class="contact-form">
-          <input
-            class="contact-form-input"
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Enter Your Name"
-          />
-
-          <input
-            class="contact-form-input"
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Enter Your Email"
-          />
-          <textarea
-            class="contact-form-input"
-            name="text"
-            id="text"
-            cols="30"
-            rows="10"
-            placeholder="Message"
-          ></textarea>
-          <button class="contact-btn">Submit</button>
+      <div class="contact">
+        <div class="contact-container">
+          <div class="contact-content">
+            <div class="left-side">
+              <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one">C-4 Market, Firestation Rd</div>
+                <div class="text-two">Janakpuri, New Dlehi, 110058</div>
+              </div>
+              <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one">+91 XXX-XXX-XXXX</div>
+                <div class="text-two">+91 XXX-XXX-XXXX</div>
+              </div>
+              <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">XXXXXXXX@gmail.com</div>
+                <div class="text-two">XXXXXXXX@gmail.com</div>
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="topic-text">Send us a message</div>
+              <p style="font-family: Calibri;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <form action="#">
+              <div class="input-box">
+                <input type="text" required placeholder="Enter your name">
+              </div>
+              <div class="input-box">
+                <input type="text" required placeholder="Enter your email">
+              </div>
+              <div class="input-box message-box">
+                <textarea required placeholder="Write your message..."></textarea>
+              </div>
+              <div class="button">
+                <input type="button" value="Send Now" >
+              </div>
+            </form>
+          </div>
         </div>
       </div>
       <footer class="footer footer-bg footer-py-5">
@@ -375,15 +391,9 @@
           </div>
           <div class="social">
             <a class="social-a" href="#"><i class="fab fa-github fa-2x"></i></a>
-            <a class="social-a" href="#"
-              ><i class="fab fa-facebook fa-2x"></i
-            ></a>
-            <a class="social-a" href="#"
-              ><i class="fab fa-instagram fa-2x"></i
-            ></a>
-            <a class="social-a" href="#"
-              ><i class="fab fa-twitter fa-2x"></i
-            ></a>
+            <a class="social-a" href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a class="social-a" href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a class="social-a" href="#"><i class="fab fa-twitter fa-2x"></i></a>
           </div>
         </div>
       </footer>
