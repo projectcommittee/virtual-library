@@ -51,7 +51,7 @@
 }
 
 .author{
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .tags{
@@ -81,7 +81,9 @@
   font-size: 3rem;
   font-weight: 400;
 }
-
+.cat-container li {
+  cursor: pointer;
+}
 nav ul {
   list-style-type: none;
   margin: 0.5rem 2rem 2rem 2rem;
