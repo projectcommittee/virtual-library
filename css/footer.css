@@ -152,6 +152,8 @@
 
 .footer-links-container ul{
   list-style: none;
+  font-size: smaller;
+  width: max-content;
 }
 
 .footer-link{

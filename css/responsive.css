@@ -1,0 +1,72 @@
+@media screen and (max-width: 900px) {
+    .footer-text{
+        display: none;
+    }
+    .footer-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer-top-right{
+        padding: 0%;
+        flex-direction: row;
+        align-self: center;
+    }
+    .footer-top-right h2{
+        margin-bottom:0 ;
+        width: max-content;
+    }
+    .footer-top-left{
+        order: 2;
+        align-items: center;
+        width: auto;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-bottom-left{
+        font-size: smaller;
+        order: 2;
+        text-align: center;
+    }
+    .footer-links-container{
+        padding: 0%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-links-container ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-links-container ul li{
+        padding: 10px;
+        width: max-content;
+        font-size: smaller;
+    }
+    .footer-links-container ul li:hover, .footer-social-links *:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .footer-top{
+        flex-direction: column;
+    }
+    .footer-social-links{
+        padding: 0 0 10px 0;
+    }
+    .key-container{
+        width: 90%;
+        justify-content: center;
+    }
+    .book-container{
+        justify-content: center;
+    }
+    footer{
+        height: 300px;
+        z-index: 999;
+    }
+}
+.carousel-dots .carousel-dot{
+    height: 10px;
+    width: 10px;
+}
