@@ -127,6 +127,7 @@ nav ul li span {
 
 nav ul li:hover {
   color: rgb(230, 224, 192);
+  cursor: pointer;
 }
 
 nav ul li:hover span {
