@@ -61,10 +61,58 @@
     .book-container{
         justify-content: center;
     }
+
     footer{
-        height: 300px;
+        padding: 0;
+        padding-top: 1rem;
         z-index: 999;
     }
+
+    .footer-container{
+    margin: 0 auto;
+
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    }
+
+    .footer-about{
+    margin: 1rem 0;
+    width: 100%;
+    }
+
+    .footer-about-text{
+    margin: 1rem 0;
+    }
+
+    .footer-links{
+    margin: 1rem 0;
+    width: 100%;
+    }
+
+
+
+    .footer-links-ul{
+    margin: 1rem 0;
+    list-style: none;
+    }
+
+    .footer-copyrights{
+    margin: 1rem 0;
+    width: 100%;
+    }
+
+    .footer-social-links{
+    margin: 1rem 0;
+    width: 100%;
+    justify-content: space-between;
+    }
+      
+
+
+
 }
 .carousel-dots .carousel-dot{
     height: 10px;
